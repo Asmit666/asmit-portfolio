@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work Showcase | Asmit Portfolio</title>
+    <link rel="icon" href="/Media/logo/Portfolio.jpg">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <div id="menu-overlay" class="overlay"></div>
+    <nav class="navbar">
+        <div class="logo"><a href="index.html">PORTFOLIO</a></div>
+
+        <ul class="nav-links" id="nav-links">
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="index.html#work">Work</a></li>
+            <li><a href="index.html#skills">Skills</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="hamburger" id="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <header class="work-header reveal" id="logic">
+        <h1 class="main-name" style="font-size: 4rem;">LOGIC & <span class="cyan-glow">ARCHITECTURE</span></h1>
+        <p class="hero-sub">Deep Dive into System Flows and Backend Design</p>
+    </header>
+
+    <section class="slider-section reveal">
+        <div class="slider-container">
+            <div class="slide active">
+                <div class="chart-box">
+                    <img src="Media/Flowcharts/Pic1.png" alt="home page">
+                </div>
+                <div class="chart-details">
+                    <h3>Home Page of Sportzone Website</h3>
+                    <p>This flowchart maps out the exact structure of the SportZone homepage. It visualizes the top-down
+                        user flow: starting from a fully-equipped Navbar (Cart, Login, Wishlist), moving through the
+                        dynamic Banner Slider, and branching into specific sports categories (Football, Cricket,
+                        Basketball, Swimming) before ending at the structured Footer.</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="chart-box">
+                    <img src="Media/Flowcharts/Pic2.png" alt="login signup page">
+                </div>
+                <div class="chart-details">
+                    <h3>Login & Signup page of Sportzone Website</h3>
+                    <p>A logic map detailing the user authentication pathways for SportZone. It illustrates the seamless
+                        branching journeys between the returning member Login flow and the new user Account Creation
+                        process, highlighting a frictionless onboarding experience and clean data entry points.</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="chart-box">
+                    <img src="Media/Flowcharts/Pic3.png" alt="product page">
+                </div>
+                <div class="chart-details">
+                    <h3>Product Page of SportZone Website</h3>
+                    <p>An architectural breakdown of the dynamic Product view. This schematic highlights how individual
+                        item data—such as pricing, descriptions, and imagery—is seamlessly injected from a
+                        JavaScript-based product database into the UI. The layout prioritizes a clean visual hierarchy,
+                        guiding the user straight into vital e-commerce conversion triggers like the "Add to Cart" and
+                        immediate checkout functions.</p>
+                </div>
+            </div>
+
+            <button class="slider-btn prev" id="prevBtn">&#10094;</button>
+            <button class="slider-btn next" id="nextBtn">&#10095;</button>
+
+            <div class="dots-container">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="cinematic-section reveal" id="edit" style="padding-top: 50px; padding-bottom: 100px;">
+        <header class="work-header reveal">
+            <h1 class="main-name" style="font-size: 4rem;">CINEMATIC <span class="cyan-glow">NARRATIVE</span></h1>
+            <p class="hero-sub">Advanced video editing featuring night-flash aesthetics</p>
+        </header>
+
+        <div class="video-grid">
+            <div class="video-card">
+                <video controls preload="metadata" poster="Media/Edits/Monster Trio/Monster Trio-Cover.jpg">
+                    <source src="Media/Edits/Monster Trio/Monster Trio.mp4" type="video/mp4">
+                </video>
+                <div class="video-info">
+                    <h3>One Piece Monster Trio</h3>
+                    <p>Color Grading & Masking & Transitions</p>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <video controls preload="metadata" poster="Media/Edits/Big 3 Edit/Big 3 Edit-Cover.jpg">
+                    <source src="Media/Edits/Big 3 Edit/Big 3 Edit.mp4" type="video/mp4">
+                </video>
+                <div class="video-info">
+                    <h3>Big Three</h3>
+                    <p>Premiere Pro & After Effects</p>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <video controls preload="metadata" poster="Media/Edits/BMW/BMW-Cover.jpg">
+                    <source src="Media/Edits/BMW/BMW.mp4" type="video/mp4">
+                </video>
+                <div class="video-info">
+                    <h3>BMW Car</h3>
+                    <p>Color Grading & Masking</p>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <video controls preload="metadata" poster="Media/Edits/Car Lambo/Car Lambo-Cover.jpg">
+                    <source src="Media/Edits/Car Lambo/Car Lambo.mp4" type="video/mp4">
+                </video>
+                <div class="video-info">
+                    <h3>Lamborghini Car</h3>
+                    <p>Masking & Transitions</p>
+                </div>
+            </div>
+
+            <div class="video-card last-video">
+                <video controls preload="metadata" poster="Media/Edits/OP Story Edit/OP Story Edit-Cover.jpg">
+                    <source src="Media/Edits/OP Story Edit/OP Story Edit.mp4" type="video/mp4">
+                </video>
+                <div class="video-info">
+                    <h3>One Piece Story</h3>
+                    <p>Premiere Pro & After Effects</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- =========================================
+     GRAPHIC DESIGN SECTION
+     ========================================= -->
+    <section class="graphic-showcase-section" style="margin-top: 100px; padding-bottom: 100px;" id="graphic">
+        <header class="work-header reveal">
+            <h1 class="main-name" style="font-size: 4rem;">GRAPHIC <span class="cyan-glow">DESIGN</span></h1>
+            <p class="hero-sub">High-Impact Visuals & Brand Identity created with Canva</p>
+        </header>
+
+        <div class="slider-container">
+            <div class="gfx-container">
+                <!-- Image 1 (Example: 9:16) -->
+                <div class="gfx-slide active">
+                    <img src="Media/Graphic/Poster.png" alt="Design 1">
+                </div>
+                <!-- Image 3 (Example: Square) -->
+                <div class="gfx-slide">
+                    <img src="Media/Graphic/Logo.png" alt="Design 3">
+                </div>
+                <!-- Image 4 -->
+                <div class="gfx-slide">
+                    <img src="Media/Graphic/Invitation Card.png" alt="Design 4">
+                </div>
+                <!-- Image 2 (Example: 16:9) -->
+                <div class="gfx-slide">
+                    <img src="Media/Graphic/Thumbnail.png" alt="Design 2">
+                </div>
+                <!-- Image 5 -->
+                <div class="gfx-slide">
+                    <img src="Media/Graphic/Thumbnail Dada.png" alt="Design 5">
+                </div>
+                <!-- Image 6 -->
+                <div class="gfx-slide">
+                    <img src="Media/Graphic/Business Card.png" alt="Design 6">
+                </div>
+            </div>
+
+            <!-- Navigation Arrows -->
+            <button class="gfx-btn prev" id="gfxPrevBtn">❮</button>
+            <button class="gfx-btn next" id="gfxNextBtn">❯</button>
+
+            <!-- NEW: Indication Dots -->
+            <div class="gfx-dots" id="gfxDots">
+                <span class="gfx-dot active"></span>
+                <span class="gfx-dot"></span>
+                <span class="gfx-dot"></span>
+                <span class="gfx-dot"></span>
+                <span class="gfx-dot"></span>
+                <span class="gfx-dot"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================================
+     AI IMAGE PROCESSOR (V2 - CLEAN)
+     ========================================= -->
+    <section class="ai-section" id="AI">
+        <header class="work-header reveal">
+            <h1 class="main-name" style="font-size: 4rem;">AI IMAGE <span class="cyan-glow">PROCESSOR</span></h1>
+            <p class="hero-sub">Manual Comparison of 3 Advanced AI Models</p>
+        </header>
+
+        <div class="ai-master-container">
+            <div class="ai-slides-wrapper" id="aiWrapper">
+
+                <!-- SET 1: Subject Removal -->
+                <div class="ai-slide">
+                    <div class="comparison-container">
+                        <div class="img-after"><img src="/Media/AI/After1.png" alt="After 1">
+                        <span class="slider-label label-after">After</span>
+                    </div>
+                        <div class="img-before"><img src="/Media/AI/Before1.png" alt="Before 1">
+                        <span class="slider-label label-before">Before</span>
+                    </div>
+                        <div class="comparison-slider">
+                            <div class="slider-line"></div>
+                            <div class="slider-button"><span class="cyan-glow">AI</span></div>
+                        </div>
+                    </div>
+                    <p class="set-label">Model 01: Subject Removal</p>
+                </div>
+
+                <!-- SET 2: Environment Change -->
+                <div class="ai-slide">
+                    <div class="comparison-container">
+                        <div class="img-after"><img src="/Media/AI/After2.png" alt="After 2">
+                        <span class="slider-label label-after">After</span>
+                    </div>
+                        <div class="img-before"><img src="/Media/AI/Before2.png" alt="Before 2">
+                        <span class="slider-label label-before">Before</span>
+                    </div>
+                        <div class="comparison-slider">
+                            <div class="slider-line"></div>
+                            <div class="slider-button"><span class="cyan-glow">AI</span></div>
+                        </div>
+                    </div>
+                    <p class="set-label">Model 02: Environment Change</p>
+                </div>
+
+                <!-- SET 3: Object Addition -->
+                <div class="ai-slide">
+                    <div class="comparison-container">
+                        <div class="img-after"><img src="/Media/AI/After3.png" alt="After 3">
+                        <span class="slider-label label-after">After</span>
+                    </div>
+                        <div class="img-before"><img src="/Media/AI/Before3.png" alt="Before 3">
+                        <span class="slider-label label-before">Before</span>
+                    </div>
+                        <div class="comparison-slider">
+                            <div class="slider-line"></div>
+                            <div class="slider-button"><span class="cyan-glow">AI</span></div>
+                        </div>
+                    </div>
+                    <p class="set-label">Model 03: Object Addition</p>
+                </div>
+
+            </div>
+
+            <!-- Navigation Buttons -->
+            <div class="ai-nav">
+                <button class="ai-nav-btn" id="aiPrev">❮ Previous Model</button>
+                <button class="ai-nav-btn" id="aiNext">Next Model ❯</button>
+            </div>
+        </div>
+    </section>
+
+
+    <footer id="contact" class="section reveal">
+        <div class="footer-content">
+            <div class="footer-bottom">
+                <p>© 2026 | ALL RIGHTS RESERVED | DESIGNED & BUILT BY <span>ASMIT</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="JS/main.js"></script>
+</body>
+
+</html>

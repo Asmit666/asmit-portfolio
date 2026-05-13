@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Asmit Portfolio</title>
+    <link rel="icon" href="Media/logo/Portfolio.jpg">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <div id="menu-overlay" class="overlay"></div>
+    <nav class="navbar">
+        <div class="logo"><a href="index.html">PORTFOLIO</a></div>
+
+        <ul class="nav-links" id="nav-links">
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="index.html#work">Work</a></li>
+            <li><a href="index.html#skills">Skills</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+
+        <div class="hamburger" id="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <!-- MAIN CONTACT SECTION -->
+    <!-- 'min-height: 80vh' ensures it stays centered vertically on big screens -->
+    <main style="min-height: 80vh; display: flex; align-items: center; padding-top: 80px;">
+        <section class="contact-section reveal" id="contact" style="width: 100%; padding: 40px 5%;">
+
+            <div class="work-header" style="text-align: center; margin-bottom: 50px;">
+                <h2>GET IN <span class="cyan-glow">TOUCH</span></h2>
+                <p style="color: #a0a0a0; margin-top: 10px;">Have an idea or a project? Let's build something awesome
+                    together.</p>
+            </div>
+
+            <div class="contact-container">
+                <!-- Left Side: Info & Socials -->
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always open to discussing web development projects, creative video edits, or new
+                        opportunities.</p>
+
+                    <div class="email-text">
+                        <p>Direct Email: <br>
+                            <a href="mailto:asmitkumarbehera2224@gmail.com"
+                                onclick="navigator.clipboard.writeText('asmitkumarbehera2224@gmail.com'); this.innerHTML = 'Copied!'; setTimeout(() => this.innerHTML = 'asmitkumarbehera2224@gmail.com', 2000);">
+                                asmitkumarbehera2224@gmail.com
+                            </a>
+                        </p>
+                    </div>
+                    <div class="social-links">
+                        <!-- <a href="#" class="social-btn">GitHub</a> -->
+                        <a href="https://www.instagram.com/aniceperson111/" class="social-btn">Instagram</a>
+                        <a href="#" class="social-btn"
+                            onclick="navigator.clipboard.writeText('gamerblastak'); this.innerHTML = 'Username Copied!'; setTimeout(() => this.innerHTML = 'Discord', 2000); return false;">
+                            Discord
+                        </a>
+                        <!-- <a href="#" class="social-btn">LinkedIn</a> -->
+                    </div>
+                </div>
+
+                <!-- Right Side: The Form -->
+                <div class="contact-form-box">
+                    <!-- Action me hum apna "Magic Trick" lagaenge next step me -->
+
+                    <div class="form-header">
+                        <h3>Quick Message ⚡</h3>
+                        <p>Got a brilliant idea or need something done fast? Drop your details below and let's get the
+                            conversation started right away.</p>
+                    </div>
+                    <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+
+                        <input type="hidden" name="access_key" value="5cda151f-c5d9-4a06-9d90-16668fa1a962">
+
+                        <input type="hidden" name="redirect" value="https://web3forms.com/success">
+
+                        <div class="input-group">
+                            <input type="text" name="name" required placeholder="Your Name">
+                        </div>
+                        <div class="input-group">
+                            <input type="email" name="email" required placeholder="Your Email">
+                        </div>
+                        <div class="input-group">
+                            <textarea name="message" rows="5" required
+                                placeholder="Tell me about your project..."></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">SEND MESSAGE</button>
+                    </form>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer id="contact" class="section reveal">
+        <div class="footer-content">
+            <div class="footer-bottom">
+                <p>© 2026 | ALL RIGHTS RESERVED | DESIGNED & BUILT BY <span>ASMIT</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="JS/main.js"></script>
+</body>
+
+</html>
